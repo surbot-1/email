@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>editApp</title>
+</head>
+<body>
+
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+  
+  
+  Email.send({
+    Host : "smtp.elasticemail.com" ,
+    Username : "editeditapp@gmail.com",
+    Password : "EEC53DD326FD17298420608E2AC884C323ED",
+    To : 'jspatelniet@gmail.com',
+    From : "editeditapp@gmail.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+  
+ //pass EEC53DD326FD17298420608E2AC884C323ED
+  
+  </body>
+</html>
